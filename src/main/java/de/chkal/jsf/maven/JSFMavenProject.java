@@ -24,13 +24,11 @@ public class JSFMavenProject {
 
     try {
 
-      System.out.println("---");
       Iterator iterator = mavenRuntime.getProjectsProperties(classLoader).iterator();
       while(iterator.hasNext()) {
         MavenProjectProperties mavenProjectProperties = (MavenProjectProperties) iterator.next();
         String key = mavenProjectProperties.getGroupId()+":"+mavenProjectProperties.getArtifactId();
         String version = mavenProjectProperties.getVersion();
-        System.out.println("Key: "+key+"    "+version);
         versions.put(key, version);
       }
       
