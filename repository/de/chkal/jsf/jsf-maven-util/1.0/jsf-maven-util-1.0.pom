@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.chkal.jsf</groupId>
+  <artifactId>jsf-maven-util</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+  <name>jsf-maven-util</name>
+
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:http://github.com/chkal/jsf-maven-util.git</connection>
+    <developerConnection>scm:git:git@github.com:chkal/jsf-maven-util.git</developerConnection>
+    <url>http://github.com/chkal/jsf-maven-util</url>
+  </scm>
+
+  <issueManagement>
+    <system>github</system>
+    <url>http://github.com/chkal/jsf-maven-util/issues</url>
+  </issueManagement>
+
+  <developers>
+    <developer>
+      <id>chkal</id>
+      <name>Christian Kaltepoth</name>
+      <email>christian@kaltepoth.de</email>
+      <url>http://chkal.blogspot.com/</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.apache.maven.shared</groupId>
+      <artifactId>maven-runtime</artifactId>
+      <version>1.0-alpha-2</version>
+    </dependency>
+
+  </dependencies>
+</project>
